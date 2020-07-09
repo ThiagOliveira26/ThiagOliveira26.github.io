@@ -53,8 +53,42 @@ body {
     width: 80%;
 }
 
+.infoclass{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+    padding: 5px;
+}
+
+.score100{
+    width: 100%;
+    height: 20px;
+    background: blue;
+}
+
+.score50{
+    width: 50%;
+    height: 20px;
+    background: blue;
+}
+
+.score25{
+    width: 25%;
+    height: 20px;
+    background: blue;
+}
+
+h3{
+    margin-bottom: 5px;
+}
 /* Responsivo para mudar de row para column*/
-@media (max-width: 600px) {
+@media (max-width: 750px) {
+    .corpo {
+        display: flex;
+        flex-direction: column;
+        margin: 10px 5px 10px 5px;
+    }
+    
     .corpo .img_quadros {
         display: flex;
         flex-direction: column;
