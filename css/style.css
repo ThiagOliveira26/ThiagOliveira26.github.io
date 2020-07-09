@@ -14,26 +14,24 @@ body {
     flex: 1;
     padding: 10px;
     margin-left: 10px;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .esquerda{
     flex: 1;
     padding: 10px;
     margin-right: 10px;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+.imagem{
+    text-align: center;
 }
 
 .conteudo{
     background: #e5e5e5;
     padding: 20px 30px 10px 30px;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 0px 20px 0px;
 }
 
 .conteudo a{
@@ -45,5 +43,16 @@ body {
     .corpo {
         display: flex;
         flex-direction: column;
+        margin: 10px 5px 10px 5px;
+    }
+
+    .conteudo{
+        padding: 10px 3px 10px 3px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    .imagem{
+        text-align: center;
+        
     }
   }
