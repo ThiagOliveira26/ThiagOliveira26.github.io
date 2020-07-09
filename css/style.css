@@ -38,9 +38,24 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.conteudo a:hover{
+    font-weight: bold;
+}
+
+.img_quadros{
+    margin: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img_quadros img{
+    width: 80%;
+}
+
 /* Responsivo para mudar de row para column*/
 @media (max-width: 600px) {
-    .corpo {
+    .corpo .img_quadros {
         display: flex;
         flex-direction: column;
         margin: 10px 5px 10px 5px;
@@ -53,6 +68,5 @@ body {
 
     .imagem{
         text-align: center;
-        
     }
   }
