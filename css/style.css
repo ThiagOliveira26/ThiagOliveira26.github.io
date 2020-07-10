@@ -3,6 +3,51 @@ body {
     font-family: Calibri, Arial, 'Times New Roman';
 }
 
+header{
+    background: black;
+}
+
+.superior{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px 10px 15px;
+}
+
+.perfil img{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 2px;
+    justify-content: center;
+}
+
+.logo_sup{
+    display: flex;
+    flex-direction: row;
+}
+.logos{
+    height: 30px;
+    width: 30px;
+    padding: 1px;
+    margin: 4px;
+    border-radius: 5%;
+    background: white;
+}
+
+.ln img:hover{
+    background:#0077b5;
+}
+
+.whats img:hover{
+    background:#34af23;
+}
+
 .corpo{
     display: grid;
     grid-template-columns: 5fr 2fr;
@@ -60,6 +105,11 @@ body {
     padding: 5px;
 }
 
+.quote{
+    font-style: italic;
+    color: gray;
+}
+
 .score100{
     width: 100%;
     height: 20px;
@@ -76,6 +126,20 @@ body {
     width: 25%;
     height: 20px;
     background: blue;
+}
+
+.person h1{
+    color: #e5e5e5;
+    font-weight: bold;
+    padding: 2px;
+    margin: 2px;
+}
+
+.desc h2{
+    color: #f4f8fa;
+    font-style: italic;
+    padding: 2px;
+    margin: 2px;
 }
 
 h3{
@@ -102,5 +166,17 @@ h3{
 
     .imagem{
         text-align: center;
+    }
+
+    .superior{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px 10px 15px;
+        text-align: center;
+    }
+
+    .logo_sup{
+        text-align: center;
+        justify-content: center;
     }
   }
