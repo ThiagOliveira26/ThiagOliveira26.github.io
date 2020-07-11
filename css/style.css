@@ -7,6 +7,13 @@ header{
     background: black;
 }
 
+footer{
+    padding: 10px 0px 10px 30px;
+    background: black;
+    color: white;
+    margin-top: 0px;
+}
+
 .superior{
     display: flex;
     flex-direction: row;
@@ -23,6 +30,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 2px;
+    padding-left: 15px;
     margin: 2px;
     justify-content: center;
 }
@@ -51,7 +59,7 @@ header{
 .corpo{
     display: grid;
     grid-template-columns: 5fr 2fr;
-    margin: 30px 15px 30px 15px;
+    margin: 0px 15px 0px 15px;
     text-align: justify;
 }
 
@@ -60,6 +68,7 @@ header{
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 0px;
 }
 
 .esquerda{
@@ -67,6 +76,7 @@ header{
     padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
+    margin-bottom:0px;
 }
 
 .imagem{
