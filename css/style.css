@@ -183,6 +183,9 @@ h3{
         text-align: center;
     }
 
+    .Snake img{
+        width: 70%;
+    }
     .superior{
         display: flex;
         flex-direction: column;
