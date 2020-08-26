@@ -102,6 +102,7 @@ footer{
     margin: 3px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    height: 200px;
 }
 
 .img_quadros img{
@@ -130,14 +131,14 @@ footer{
     background: blue;
 }
 
-.score50{
-    width: 50%;
+.score75{
+    width: 75%;
     height: 20px;
     background: blue;
 }
 
-.score25{
-    width: 25%;
+.score50{
+    width: 50%;
     height: 20px;
     background: blue;
 }
@@ -172,6 +173,7 @@ h3{
         display: flex;
         flex-direction: column;
         margin: 10px 5px 10px 5px;
+        height: auto;
     }
 
     .conteudo{
@@ -197,4 +199,14 @@ h3{
         text-align: center;
         justify-content: center;
     }
+
+    .clones .imagem img{
+        width: 80%;
+    }
+  }
+
+  @media(max-width: 350px){
+      .imagem img{
+          width: 50%;
+      }
   }
