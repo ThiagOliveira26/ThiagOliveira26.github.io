@@ -200,9 +200,10 @@ h3{
         justify-content: center;
     }
 
-    .clones .imagem img{
+    .clones .imagem img, .cripto-api .imagem img{
         width: 80%;
     }
+	
   }
 
   @media(max-width: 350px){
